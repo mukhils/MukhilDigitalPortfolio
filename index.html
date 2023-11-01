@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background: hsla(167, 98%, 77%, 0.854);
+            color: rgb(83, 48, 48);
+            text-align: center;
+            padding: 2rem;
+            animation: fadeIn 2s;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        nav ul {
+            list-style: none;
+            margin-left: 3px;
+        }
+
+        .img {
+            padding: 24px 7px;
+            height: 175px;
+            width: 170px;
+            margin-top: -1%;
+        }
+
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #0f0529;
+        }
+
+        section {
+            padding: 1rem;
+            text-align: center;
+        }
+
+        .db {
+            height: 45px;
+            width: 159px;
+            background-color: rgb(24, 112, 179);
+        }
+
+        /* Corrected the CSS property */
+        ul {
+            list-style: none;
+        }
+    </style>
+
+    <title>Mukhil-Portfolio</title>
+</head>
+<body>    
+    <header>
+        <nav>
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#Education.html">Education</a></li>
+                <li><a href="#Skills.html"> Skills</a></li>
+                <li><a href="#Resume.html"> Resume</a></li>
+                <li><a href="#project.html"> Project</a></li>
+            </ul>
+            <br>
+            <img src="mukhil.jpg" class="img">
+            <br>
+            <h1>Mukhil Yadav</h1>
+            <p>FRESHER</p>
+        </nav>
+    </header>
+    <section id="about.html">
+        <h2>About Me</h2>
+        <p>Hello Everyone! I am Mukhil .S and I am pursuing a Bachelor of Computer Application.</p>
+    </section>
+    <section id="Education.html">
+        <h1>Education</h1>
+        <h4>● 2021-2018</h4>
+        <p>Pursuing BCA in SNMV college</p>
+        <h4>● 2018-2019</h4>
+        <p>HSC from VVMHS with 54%</p>
+        <h4>● 2017-2018</h4>
+        <p>SSLC from VVMHS with 64%</p>
+    </section>
+    <section id ="project.html">
+        <h1>Project
+        </h1>
+        <h3>
+            <a href="MukhilSecProject.html">Project 1</a>
+        </h3>
+    </section>
+
+    <section id="Skills.html">
+        <h1>SKILLS</h1>
+        ● C<br>
+        ● C++<br>
+        ● JAVA<br>
+        ● HTML<br>
+        ● CSS<br>
+    </section>
+    <section id="Resume.html"> 
+        <h1>My Resume</h1>
+        <p>Click the button below to download my resume:</p>
+        <a href="resume\Updated_Resume (1).pdf" download="Download Resume.pdf">
+            <button class="db">Download Resume</button>
+        </a>
+    </section>
+</body>
+</html>
